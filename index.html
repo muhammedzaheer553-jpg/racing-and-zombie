@@ -463,4 +463,5 @@ function loop(now){requestAnimationFrame(loop);const dt=Math.min(.05,(now-last)/
   p.m.scale.setScalar(p.sz*(p.t=='smoke'?1+(1-p.l/p.L)*3:p.l/p.L))}
  flash=Math.max(0,flash-dt*1.5);$('flash').style.opacity=flash;ren.render(scene,cam)}
 requestAnimationFrame(loop);
-</script></body></html>
+</script>
+<script src="features.js"></script></body></html>
